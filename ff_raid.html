@@ -2,10 +2,11 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>Fairy Fantasia バトル計算機</title>
+    <title>Fairy Fantasia レイドボス計算機</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <style>
       .table {
+      width: 100%
       table-layout: fixed;
       word-wrap: break-word;
       }
@@ -14,15 +15,13 @@
   <body>
     <div class="container">
       <a class="btn btn-info" href="index.html">トップ</a>
-      <a class="btn btn-default" href="#">バトル計算機</a>
-      <a class="btn btn-info" href="ff_raid.html">レイド計算機</a>
+      <a class="btn btn-info" href="ff_battle.html">バトル計算機</a>
+      <a class="btn btn-default" href="#">レイド計算機</a>
       
-      <h1>Fairy Fantasia バトル計算機</h1>
+      <h1>Fairy Fantasia レイドボス計算機</h1>
       <div id="form-conditions">
       </div>
-      <div id="div-result-summary">
-      </div>
-      <div id="div-result-detail">
+      <div id="div-result">
       </div>
     </div>
 
@@ -30,6 +29,6 @@
     <script type="text/javascript" src="jquery.cookie.js"></script>
     <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="ff_common.js"></script>
-    <script type="text/javascript" src="ff_battle.js"></script>
+    <script type="text/javascript" src="ff_raid.js"></script>
   </body>
 </html>
