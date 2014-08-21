@@ -56,7 +56,7 @@ function saveFormValues() {
 
 function saveFormValuesToCookie(name) {
     var json = JSON.stringify(saveFormValues());
-    $.cookie(name, json);
+    $.cookie(name, json, { expires: (365 * 3) });
 }
 
 function loadFormValues(params) {
